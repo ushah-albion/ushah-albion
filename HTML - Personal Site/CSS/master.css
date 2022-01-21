@@ -1,6 +1,8 @@
 body{
-  background-color: #FFEBC9;
+  background-color: #fff;
   color: #146356;
+  padding: 20px;
+  font-family: Lucida sans,sans-serif;
 }
 hr{
   color: #D9534F ;
@@ -10,9 +12,45 @@ hr{
   height: 0;
   width: 50%;
 }
+p{
+  font-family: cursive;
+}
 h1, h3{
    color: #146356;
+   font-family: sans-serif;
+}
+h2{
+  font-family: Lucida sans,sans-serif;
 }
 strong{
   color: #B05B3B;
 }
+div{
+  background-color: #FFF1BD;
+  background-size: 100%;
+  border-radius: 20px;
+  margin: auto;
+  padding: 8px;
+}
+img{
+  border-radius: 60px;
+  border-width: medium;
+  border-color: #146356
+}
+a{
+  color: #B05B3B;
+}
+
+/*-------------------------------------DIV-------------------------------------- */
+.education{
+  background-color: #146356;
+  width: 50%;
+  color: white;
+}
+.experience{
+  width: 50%;
+}
+.skills{
+  width: 50%;
+}
+/* ---------------------------------------CLASS----------------------------------- */
